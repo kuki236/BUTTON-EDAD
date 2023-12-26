@@ -1,0 +1,130 @@
+.oculto {
+    display: none;
+}
+.error {
+    border: 2px solid red;
+}
+.errorCantidad{
+    margin: 0 auto;
+    color: white;
+    background: red;
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid rgb(22, 16, 67);
+}
+body{
+    background-color: #FFD1E3;
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    width: 600px;
+  margin: 0 auto;
+  background-color: #FAEED1;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgb(22, 16, 67);
+}
+#IngresoCantidad {
+    margin-left: 250px;
+    color: #000000;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif
+
+  }
+#cantidad-integrantes{
+    text-align: center;
+        width: 100px; /* Ancho de 200 píxeles */
+        height: 100px; /* Altura de 30 píxeles */
+        font-size: 48px;
+
+}
+#siguiente{
+     
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+      
+}
+#reiniciar, #calcular {
+    margin-top: 20px;
+    margin-left: 10px; /* Puedes ajustar el margen según tus necesidades */
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block; /* Cambiado a display inline-block */
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+  }
+.textoEdad{
+    margin-left: 200px;
+        color: #333; /* Color del texto */
+        font-size: 32px; /* Tamaño del texto */
+        font-weight: bold; /* Negrita */
+            min-width: 130px;
+            height: 40px;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background-size: 120% auto;
+            background-image: linear-gradient(315deg, #000428 0%, #004e92 75%);
+            margin-bottom: 20px; /* Ajusta el valor según tus necesidades */
+}
+.edadIntegrante{
+    margin-left: 20px;
+    text-align: center;
+    width: 70px; /* Ancho de 200 píxeles */
+    height: 50px; /* Altura de 30 píxeles */
+    font-size: 36px;
+
+}
+#datosCalculados {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  #datosCalculados ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #datosCalculados li {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #datosCalculados li::before {
+    content: "➤"; /* Utiliza un símbolo (por ejemplo, ➤) antes de cada elemento de la lista */
+    margin-right: 5px;
+    color: #ff6392;
+  }
+  
