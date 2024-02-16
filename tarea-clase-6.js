@@ -13,7 +13,9 @@ document.querySelector('#siguiente').onclick = function(event) {
         ocultarErrorCantidadIntegrantes()
         crearIntegrantes()
         mostrarBotonCalcular()
-        ocultarResultados();
+        ocultarResultados()
+        ocultarErrorEdadIntegrantes();
+  
     }else{
         mostrarErrorCantidadIntegrantes();
     }
@@ -81,7 +83,7 @@ function calculos(){
 }
 function editarResultados(){
     let PromedioEdad = document.querySelector('[name="promedioEdad"]');
-    PromedioEdad.textContent = 'El promedio de edad es: ' + promedio
+    PromedioEdad.textContent = 'El promedio es: ' + promedio
     let MayorEdad = document.querySelector('[name="mayorEdad"]');
     MayorEdad.textContent = 'La mayor edad es: ' + mayorNumero
     let MenorEdad = document.querySelector('[name="menorEdad"]');
@@ -112,7 +114,7 @@ function validarcantidadIntegrantes(){
 }
 function mostrarErrorCantidadIntegrantes(){
     const errorCantidadIntegrantes = document.querySelector('#errorCantidad')
-    errorCantidadIntegrantes.className = 'errorCantidad'
+    errorCantidadIntegrantes.className = 'alert alert-danger alertaCantidad'
 }
 function ocultarErrorCantidadIntegrantes(){
     const errorCantidadIntegrantes = document.querySelector('#errorCantidad')
@@ -133,7 +135,7 @@ function validarEdadIntegrante(){
 }
 function mostrarErrorEdadIntegrantes(){
     const errorEdadIntegrantes = document.querySelector('#errorEdad')
-    errorEdadIntegrantes.className = 'errorCantidad'
+    errorEdadIntegrantes.className = 'alert alert-danger alertaEdad'
 }
 function ocultarErrorEdadIntegrantes(){
     const errorEdadIntegrantes = document.querySelector('#errorEdad')
