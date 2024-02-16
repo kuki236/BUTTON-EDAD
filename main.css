@@ -1,0 +1,210 @@
+body{
+    background-color: #DBF227;;
+}
+section{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+#bienvenida{
+    background-color: #042940;
+    height: 150px;
+    display: flex;
+}
+.bienvenida-texto{
+    padding-top: 5px;
+    font-size: 4.5rem;
+    font-family: "Protest Revolution", sans-serif;
+    color: #DBF227;
+}
+
+@media screen and (max-width:700px){
+    .bienvenida-texto{
+        padding: 0px;
+        font-size:2.4rem;
+        margin: 50px;
+        text-align: center;
+
+    }
+}
+.seccion-clara{
+    justify-content: flex-start;
+    background-color: #D6D58E;
+    padding-bottom: 50px;
+    display: flex;
+}
+.texto-ingresoCantidad{
+    font-family: "Protest Strike", sans-serif;
+    font-size:3.5rem;
+    text-align: center;
+}
+
+#cantidad-integrantes{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 250px;
+    margin-top: 30px;
+    color: #005C53;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+
+#siguiente{
+    font-size: 2.2rem;
+    margin-top: 55px;
+    text-align: center;
+    background-color: #005C53;
+    color:white;
+    font-weight: bold;
+    width: 230px;
+    border: none;
+    box-shadow: 0 5px #398f86;
+    transition: all 0.3s ease;
+}
+#siguiente:hover{
+    background-color: #c8e6e3;
+    color:#09433d;    
+    box-shadow: 0 5px #005C53;
+}
+@media screen and (max-width:800px){
+    .texto-ingresoCantidad{
+        font-size: 2.2rem;
+    }
+    #cantidad-integrantes{
+       margin-left: 35%;
+    }
+    #siguiente{
+        margin-left: 20%;
+    }
+
+}
+.oculto{
+    display: none;
+}
+#reiniciar{
+    margin-left: 50%;
+    font-size: 2.2rem;
+    margin-top: 55px;
+    text-align: center;
+    background-color: #005C53;
+    color:white;
+    font-weight: bold;
+    width: 230px;
+    border: none;
+    box-shadow: 0 5px #398f86;
+    transition: all 0.3s ease;
+}
+#reiniciar:hover{
+    background-color: #c8e6e3;
+    color:#09433d;    
+    box-shadow: 0 5px #005C53;
+}
+@media screen and (max-width: 800px) {
+    #reiniciar {
+        margin-left: 20%;
+    }
+    #calcular{
+        margin-left: 20%;
+    }
+}
+
+
+#calcular{
+    font-size: 2.2rem;
+    margin-top: 55px;
+    text-align: center;
+    background-color: #005C53;
+    color:white;
+    font-weight: bold;
+    width: 230px;
+    border: none;
+    box-shadow: 0 5px #398f86;
+    transition: all 0.3s ease;
+}
+#calcular:hover{
+    background-color: #c8e6e3;
+    color:#09433d;    
+    box-shadow: 0 5px #005C53;
+}
+.alertaCantidad{
+    margin-top: 120px;
+    font-size: 1.5rem;
+}
+.textoEdad{
+    font-family: "Playfair Display", serif;
+    font-size: 2.0rem;
+    margin: 15px;
+}
+.edadIntegrante{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 15px;
+    background-color: #d2e259;
+    color: #042940;
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.resultadoFebrero{
+    display: flex;
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 500px;
+}
+
+.alertaEdad{
+    margin-top: 3.5rem;
+}
+.contenedor-integrantes{
+   justify-content: center;
+}
+.resultados {
+    background-color: #042940; /* Color de fondo oscuro */
+    color: #DBF227; /* Color del texto */
+}
+@media screen  and (max-width:800px){
+    .contenedor-integrantes{
+        text-align: center;
+        align-items: center;
+    }
+}
+.div-texto p{
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+.div-icono i{
+    font-size: 12.0rem;
+    justify-content: center;
+    align-items: flex-start;    
+    margin-left: 50%;
+    color: #005C53;
+}
+.div-icono i:hover{
+    color:#042940
+}
+.texto-descripcion-juego{
+    display: flex;
+    background-color: #DBF227;
+}
+@media  screen and (max-width:800px) {
+    .div-texto p{
+        font-size: 1.4rem;
+        margin-top: 40px;
+        margin: 6%;
+    }
+    .div-icono i{
+        margin-left: 35%;
+        font-size: 7rem;
+    }
+}
