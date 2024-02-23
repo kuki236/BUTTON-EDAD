@@ -1,0 +1,17 @@
+{
+  "name": "button-edad",
+  "version": "1.0.0",
+  "description": "https://kuki236.github.io/BUTTON-EDAD/",
+  "main": "calculos-mio.js",
+  "scripts": {
+    "empezar": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-dev": "cypress open",
+    "cypress-run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
